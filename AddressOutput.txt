@@ -3,7 +3,7 @@ Lista utenti:
 ------ Utente ------
 Nome: John
 Cognome:  Doe
-via: 
+via: 120 jefferson st. 
 Città:   Riverside
 Provincia:    NJ
 zip:    08075
@@ -12,7 +12,7 @@ zip:    08075
 ------ Utente ------
 Nome: Jack
 Cognome: McGinnis
-via: 
+via: 220 hobo Av.
 Città:   Phila
 Provincia:   PA
 zip:   09119
@@ -21,7 +21,7 @@ zip:   09119
 ------ Utente ------
 Nome: John Da Man
 Cognome: Repici
-via: 
+via: 120 Jefferson St.
 Città:   Riverside
 Provincia:   NJ
 zip:   08075
@@ -30,7 +30,7 @@ zip:   08075
 ------ Utente ------
 Nome: Stephen
 Cognome: Tyler
-via: 
+via: 7452 Terrace "At the Plaza" road
 Città:   SomeTown
 Provincia:   SD
 zip:   91234

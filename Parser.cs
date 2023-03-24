@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,12 +18,13 @@ namespace csharp_lista_indirizzi
             var utenti = new List<Utente>();
 
             input.ReadLine();
-            
+
             while (true)
             {
                 string? line = input.ReadLine();
                 if (line is null) return utenti;
-                var chunks = line.Split(',')!;
+                var chunks = line.Split(',');
+
 
                 if (chunks.Length == 6)
                 {
@@ -35,9 +37,15 @@ namespace csharp_lista_indirizzi
                     var zip = chunks[5];
 
 
-                var utente = new Utente(nome, cognome, via, città, provincia, zip);
-                utenti.Add(utente);
+                    var utente = new Utente(nome, cognome, via, città, provincia, zip);
+                    utenti.Add(utente);
                 }
+                else if (chunks.Length == 7)
+                {
+                    Console.WriteLine("dati mancanti");
+
+                }
+
 
             }
 
@@ -59,6 +67,7 @@ namespace csharp_lista_indirizzi
                 output.WriteLine($"Provincia:   {elem.Province}");
                 output.WriteLine($"zip:   {elem.ZIP}");
                 output.WriteLine("-------------------");
+
             }
         }
     }
