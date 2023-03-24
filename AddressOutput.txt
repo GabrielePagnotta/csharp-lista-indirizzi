@@ -1,0 +1,46 @@
+Lista utenti:
+
+------ Utente ------
+Nome: John
+Cognome:  Doe
+via: 
+Città:   Riverside
+Provincia:    NJ
+zip:    08075
+-------------------
+
+------ Utente ------
+Nome: Jack
+Cognome: McGinnis
+via: 
+Città:   Phila
+Provincia:   PA
+zip:   09119
+-------------------
+
+------ Utente ------
+Nome: John Da Man
+Cognome: Repici
+via: 
+Città:   Riverside
+Provincia:   NJ
+zip:   08075
+-------------------
+
+------ Utente ------
+Nome: Stephen
+Cognome: Tyler
+via: 
+Città:   SomeTown
+Provincia:   SD
+zip:   91234
+-------------------
+
+------ Utente ------
+Nome: 
+Cognome: Blankman
+via: 
+Città:   New York
+Provincia:    NY
+zip:    100101
+-------------------
